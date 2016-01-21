@@ -20,7 +20,7 @@ public class CampaignAspect {
 	}
 
 	public Object doAround(ProceedingJoinPoint pjp) throws Throwable {
-		System.out.println("进入方法---环绕通知");
+		System.out.println("进入方法---环绕通知"); 
 		
 		Object o = pjp.proceed();
 
